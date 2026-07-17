@@ -39,8 +39,24 @@
 
     .socials {
       display: flex;
+      gap: 5rem;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      display: flex;
       flex-direction: column;
       gap: 1rem;
+      min-width: 220px;
+    }
+
+    .section-title {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      color: #888;
+      font-weight: bold;
       text-align: center;
     }
 
@@ -73,39 +89,50 @@
 
   <h1>bhorolsky</h1>
 
-  <p class="subtitle">🫛 Zundamon enjoyer</p>
-
   <div class="socials">
 
-    <a href="https://matrix.to/#/@bhorolsky39:matrix.org" target="_blank">Matrix</a>
+    <div class="column">
 
-    <a href="https://mastodon.social/@bHorolsky" target="_blank">Mastodon</a>
+      <div class="section-title">Open</div>
 
-    <a href="https://bhorolsky.bsky.social" target="_blank">Bluesky</a>
+      <a href="https://matrix.to/#/@bhorolsky39:matrix.org" target="_blank">Matrix.org</a>
 
-    <a href="https://t.me/bhorolsky" target="_blank">Telegram</a>
+      <a href="#" onclick="alert('username: bhorolsky'); return false;">Stoat.chat</a>
 
-    <a href="https://www.reddit.com/user/bhorolsky" target="_blank">Reddit</a>
+      <a href="https://lemmy.zip/u/bhorolsky" target="_blank">Lemmy.zip</a>
 
-    <a href="https://xdaforums.com/m/bhorolsky.13391930/" target="_blank">XDA</a>
+      <a href="https://codeberg.org/bhorolsky" target="_blank">Codeberg.org</a>
 
-    <a href="https://www.youtube.com/channel/UCbk1Sj712nB4lHP2KnoI4Pw" target="_blank">YouTube</a>
+      <a href="https://peertube.wtf/a/bhorolsky" target="_blank">Peertube.wtf</a>
 
-    <a href="https://github.com/bhorolsky" target="_blank">GitHub</a>
+      <div class="section-title">Other Open</div>
 
-    <a href="https://www.twitch.tv/bhorolsky" target="_blank">Twitch</a>
+      <a href="https://mastodon.social/@bHorolsky" target="_blank">Mastodon.social</a>
 
-    <a href="https://x.com/bhorolsky" target="_blank">X</a>
+    </div>
 
-    <a href="https://steamcommunity.com/profiles/76561199251299740" target="_blank">Steam</a>
+    <div class="column">
 
-    <a href="https://discord.com/users/794950795128864779" target="_blank">Discord</a>
+      <div class="section-title">Proprietary</div>
+
+      <a href="https://t.me/bhorolsky" target="_blank">Telegram</a>
+
+      <a href="https://discord.com/users/794950795128864779" target="_blank">Discord</a>
+
+      <a href="https://www.reddit.com/user/bhorolsky" target="_blank">Reddit</a>
+
+      <a href="https://github.com/bhorolsky" target="_blank">GitHub</a>
+
+      <a href="https://www.youtube.com/channel/UCbk1Sj712nB4lHP2KnoI4Pw" target="_blank">YouTube</a>
+
+      <div class="section-title">Other Proprietary</div>
+
+      <a href="https://xdaforums.com/m/bhorolsky.13391930/" target="_blank">XDA</a>
+
+      <a href="https://steamcommunity.com/profiles/76561199251299740" target="_blank">Steam</a>
+
+    </div>
 
   </div>
-
-  <footer>
-    Made with love and some ChatGPT
-  </footer>
-
 </body>
 </html>
